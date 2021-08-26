@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: beige;
+    font-size: 22px;
+}
+
+/* header */
+
+header{
+    text-align: center;
+    background-color: rgb(20, 110, 39);
+    font-size: 2rem;
+    height: 4.75rem;
+    color:beige;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(224, 198, 111);
+    padding:0,20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p {
+    font-family: arial;
+    color:#222;
+    font-size:24px;
+    line-height: 55px;
+    margin:0px 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right:18%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display:block;
+    font-family: arial;
+    color:#222;
+    font-size: 20px;
+    font-family: Helvetica,sans-serif;
+    padding: 22px 34px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position:absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li a {
+    padding: 12px 14px;
+}
+
+nav ul li ul li a:hover {
+    color:white;
+    background-color: #351c6e;
+}
+
+/* The Intro */
+
+.intro {
+    text-align: center;
+   line-height: 1.8em;
+    margin: 12% 15% ;
+}
+.intro, h2 {
+    margin-bottom: 2%;
+}
+
+/* The Map */
+.map {
+    margin-top: 10%;
+}
+
+/* The Analysis */
+
+.analysis {
+    margin: 5%;
+    text-align: center;
+}
+.analysis, p {
+    margin: 5%, normal;
+    padding:2%;
+    word-spacing: 0.3rem;
+}
+
+#imageCaption1 {
+    word-spacing: normal;
+    padding:2%;
+}
+
+#imageCaption2 {
+    word-spacing: normal;
+    padding:3%;
+}
+
+#bigPicture {
+    width: 90%;
+    height:auto;
+    margin-bottom: 5%;
+}
